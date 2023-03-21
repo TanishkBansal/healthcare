@@ -1,0 +1,42 @@
+.body-page{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.list-tiles{
+    width: inherit;
+    height: auto;
+    display: grid;
+    align-items: center;
+    padding: 10px
+}
+
+.spes-list{
+    display: grid;
+    font-size: 1.5rem;
+    grid-template-rows: 30px auto;
+    row-gap: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    min-height: 150px;
+    cursor: pointer;
+}
+.spes-list:hover{
+    margin: 20px;
+}
+.bluediv{
+    justify-content: end;
+    background-color: var(--mainafterclr);
+    color: #000;
+}
+.blackdiv{
+    background-color: var(--mainclr);
+    color: #fff;
+}
+.whitediv{
+    justify-content: end;
+    background-color: #eeeeee;
+    color: #000;
+}

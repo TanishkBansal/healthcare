@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="doclist.css">
+    <link rel="stylesheet" href="doctors.css">
+    <style>
+		.grid-container {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 20px;
+            padding: 20px;
+		}
+		.grid-item {
+            font-size: 1.5rem;
+			text-align: center;
+            padding: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+		}
+        .grid-item:hover{
+            background-color: var(--secclr);
+            color: #fff;
+        }
+		.grid-item img {
+			max-width: 100%;
+			height: 150px;
+            border-radius: 100%;
+		}
+		.grid-item p {
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+    
+    <header class="header">
+        <img src="images/logo.jpg" id="logo" alt="">
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="index.html#about">about</a>
+            <a href="index1.html">Prescription</a>
+            <a href="doclist.html">Doctors</a>
+            <a href="tel:+91108">Call Ambulance (108)</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menubar" class="fas fa-bars"></div>
+            <a href="form.html">Register</a>
+        </div>
+    </header>
+    <div class="body-page">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="doctors/dp1.jpg">
+                <p>Sanjeev</p>
+                <p>Manipal</p>
+                <p>+91 0123456789</p>
+            </div>
+            <div class="grid-item">
+                <img src="doctors/dp1.jpg">
+                <p>Sanjeev</p>
+                <p>Manipal</p>
+                <p>+91 0123456789</p>
+            </div>
+            <div class="grid-item">
+                <img src="doctors/dp1.jpg">
+                <p>Sanjeev</p>
+                <p>Manipal</p>
+                <p>+91 0123456789</p>
+            </div>
+            <div class="grid-item">
+                <img src="doctors/dp1.jpg">
+                <p>Sanjeev</p>
+                <p>Manipal</p>
+                <p>+91 0123456789</p>
+            </div>
+            <div class="grid-item">
+                <img src="doctors/dp1.jpg">
+                <p>Sanjeev</p>
+                <p>Manipal</p>
+                <p>+91 0123456789</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
